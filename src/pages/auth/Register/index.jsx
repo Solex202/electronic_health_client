@@ -23,15 +23,29 @@ const Register
                         <form className={style.form}>
                             <div className={style.fullname}>
                                 <div className={style.firstname}>
-                                    <label for="name">FirstName</label>
+                                    <label for="name">First Name</label>
                                     <input type="name" id="name" name="firstName" required/>
                                 </div>
                                 <div className={style.lastname}>
-                                    <label for="name">LastName</label>
+                                    <label for="name">Last Name</label>
                                     <input type="name" id="name" name="lastName" required/>
                                 </div>
                                 
                             </div>
+                            <div className={style.email}>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required/>
+                            </div>
+                            <div className={style.password}>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required/>
+                            </div>
+                            <div className={style.phonenumber}>
+                                <label for="phone">Phone no</label>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"  required/>
+                                {/* <small>Format: 1234567890</small> */}
+                            </div>
+                            <button>Sign up</button>
                                 
                         </form>
                     </div> 

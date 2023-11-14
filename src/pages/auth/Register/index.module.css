@@ -99,12 +99,30 @@
     flex-direction: column;
 }
 
+.email{
+    display: flex;
+    flex-direction: column; 
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+}
 .firstname label{
     color: #0D0101;
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
+    line-height: 24px; /* 100% */
+}
+
+.lastname label{
+    color: #0D0101;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
     line-height: 24px; /* 100% */
 }
 
@@ -122,4 +140,8 @@
     flex-shrink: 0;
     border-radius: 10px;
     background: #D9D9D9;
+}
+
+.form button{
+    background-color: blue;
 }
