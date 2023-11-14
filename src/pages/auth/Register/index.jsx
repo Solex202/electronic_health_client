@@ -20,10 +20,14 @@ const Register
                 <div id='right-section'>
                     <div className={style.right_section_inner}>
                         <p>Register </p>
-                        <form>
+                        <form className={style.form}>
                             <div className="div">
-                                <label></label>
-                                <label></label>
+                                <label for="name">FirstName:</label>
+                                <input type="name" id="name" name="firstName" required/>
+                                
+                                <label for="name">LastName:</label>
+                                <input type="name" id="name" name="firstName" required/>
+                                
                             </div>
                                 
                         </form>
