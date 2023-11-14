@@ -1,5 +1,16 @@
+.parent{
+    display: flex;
+    width: 1440px;
+    height: 585px;
+    flex-shrink: 0;
+    /* padding: 50px; */
+    /* flex-direction: column; */
+}
+
 .left_section{
     background-color: #2641C2;
+    padding: 20px;
+   
 }
 
 .logo_div{
@@ -9,13 +20,7 @@
 .logo_div p{
     color: #ffffff;
 }
-.parent{
-    display: flex;
-    width: 1440px;
-    height: 900px;
-    flex-shrink: 0;
-    /* flex-direction: column; */
-}
+
 
 .intro_text h2{
     display: flex;
@@ -31,8 +36,7 @@
     display: flex;
     width: 351px;
     height: 137px;
-    flex-direction: column;
-    justify-content: center;
+    
     flex-shrink: 0;
     color: #ffffff;
 }
