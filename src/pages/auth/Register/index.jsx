@@ -46,6 +46,10 @@ const Register
                                 {/* <small>Format: 1234567890</small> */}
                             </div>
                             <button>Sign up</button>
+                            <div className={style.bottom_text}>
+                                <p></p>
+                                <href></href>
+                            </div>
                                 
                         </form>
                     </div> 
