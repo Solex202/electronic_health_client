@@ -17,16 +17,19 @@ const Register
                         </div>
                     </div>
                 </div>
-                <div id='right-section'>
+                <div id='right-section' className={style.right_section}>
                     <div className={style.right_section_inner}>
                         <p>Register </p>
                         <form className={style.form}>
-                            <div className="div">
-                                <label for="name">FirstName:</label>
-                                <input type="name" id="name" name="firstName" required/>
-                                
-                                <label for="name">LastName:</label>
-                                <input type="name" id="name" name="firstName" required/>
+                            <div className={style.fullname}>
+                                <div className={style.firstname}>
+                                    <label for="name">FirstName</label>
+                                    <input type="name" id="name" name="firstName" required/>
+                                </div>
+                                <div className={style.lastname}>
+                                    <label for="name">LastName</label>
+                                    <input type="name" id="name" name="lastName" required/>
+                                </div>
                                 
                             </div>
                                 
