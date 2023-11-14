@@ -12,12 +12,23 @@ const Register
                             <h3>LotaMedics</h3>
                         </div>
                         <div className={style.intro_text}>
-                            <p className={style.intro_text_p1}>"Your Wellbeing, <br/>Your Way."</p>
+                            <p className={style.intro_text_p1}>"Your Wellbeing,<br/>Your Way."</p>
                             <p className={style.intro_text_p2}>Your Wellbeing & healthcare<br/> made easy and tailored to <br/> your taste.</p>
                         </div>
                     </div>
                 </div>
-                <div>dev</div>
+                <div id='right-section'>
+                    <div className={style.right_section_inner}>
+                        <p>Register </p>
+                        <form>
+                            <div className="div">
+                                <label></label>
+                                <label></label>
+                            </div>
+                                
+                        </form>
+                    </div> 
+                </div>
             </div>
         )
     }
