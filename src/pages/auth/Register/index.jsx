@@ -1,6 +1,6 @@
 import React from 'react';
 import style from "../Register/index.module.css"
-import logo from "../../../assets/LotaMedics Logo.svg"
+import logo from "../../../assets/LotaMedics Logo.png"
 const Register
     = () => {
         return (
@@ -41,19 +41,20 @@ const Register
                                 <input type="password" id="password" name="password" required/>
                             </div>
                             <div className={style.phonenumber}>
-                                <label for="phone">Phone no</label>
+                                <label for="phone">Phone No:</label>
                                 <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"  required/>
-                                {/* <small>Format: 1234567890</small> */}
+                                    
                             </div>
                             <button>Sign up</button>
                             <div className={style.bottom_text}>
-                                <p></p>
-                                <href></href>
+                                <span>Already have an account?</span>
+                                <a href=''>signin</a>
                             </div>
                                 
                         </form>
                     </div> 
                 </div>
+                
             </div>
         )
     }
