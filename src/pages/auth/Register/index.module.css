@@ -4,6 +4,7 @@
     background-color: black;
 }
 
+/* left section start */
 .left_section{
     background-color: #2641C2;
     width: 470px;
@@ -39,12 +40,7 @@
 }
 
 .intro_text{
-    /* background-color: orange; */
-    margin: 80px 0 0 40px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+   margin: 80px 0 0 40px;
 }
 
 .intro_text_p1{
@@ -63,12 +59,14 @@
     font-family: Montserrat;
     /* font-size: 15px; */
     font-style: normal;
-    /* font-weight: 100; */
     line-height: 24px; 
 }
 
+/* left section end */
+
+
 .right_section{
-    background-color: #FDFCFD;
+    /* background-color: #FDFCFD; */
     background-color: pink;
     width: 967px;
 }
@@ -83,10 +81,12 @@
 .right_section_inner p{
     color: #0D0101;
     font-family: Montserrat;
-    font-size: 32px;
+    /* font-size: 32px; */
     font-style: normal;
     font-weight: 700;
-    line-height: 24px;
+    /* line-height: 24px; */
+    justify-content: center;
+    align-items: center;
 }
 
 .form{
